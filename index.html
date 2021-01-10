@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Api</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</head>
+<body>
+    <div class="wrap">
+        
+        <div class="centerDiv">
+            <h2>🐵 Here we show your personality by your given name 🐵</h2>
+            <hr style="width: 70%;border: 1px solid #eee;margin: 10px;">    
+            <div class="nameDiv">
+                <!-- <label>Enter your name</label> -->
+                <input type="text" id="name" onfocus="this.value=''" autocomplete="off" placeholder="Enter your name"/>
+            </div>
+            <figure>
+                <img src="main.jpg" alt="mainimage" id="img">
+            </figure>
+            <button id="btn">Click 👍</button>
+        </div><!--/centerDiv-->
+    </div><!--/wrap-->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                const name=$('#name').val();
+                // alert(name);
+                $('img').attr('src',`https://joeschmoe.io/api/v1/${name}`)
+            })
+        })
+    </script> -->
+    <script src="jsCode.js"></script>
+</body>
+</html>

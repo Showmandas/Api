@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'East Sea Dokdo', cursive;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    text-align: center;
+}
+.centerDiv{
+    width: 60%;
+    height: 520px;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 8%;
+    background-color: #deb887;
+    box-shadow: 2px 2px 2px 4px #fff;
+}
+h2{
+    font-size: 2.5rem;
+    color: #000;
+    /* padding: 0px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #8a2be2; */
+    /* text-align: /center; */
+}
+.nameDiv{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#name{
+    width: 100%;
+    /* padding: 1%; */
+    margin: 30px 0;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+#img{
+    width: 70%;
+    height: 30vh;
+    object-fit:cover;
+    margin-bottom: 10px;
+}
+#btn{
+    width: 150px;
+    /* padding: 8px 8px; */
+    font-size: 2.5rem;
+    background-color: #8a2be2;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+/* Responsive css */
+@media(max-width:576px){
+    /* .centerDiv{
+        height: 550px;
+    } */
+    .centerDiv{
+        width: 100%;
+        height: 500px;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+}
+#btn{
+    font-size: 15pt;
+}
+
+@media(min-width:577px) and (max-width:816px){
+    .centerDiv{
+        width: 100%;
+        height: 750px;
+    }
+    
+    
+}
